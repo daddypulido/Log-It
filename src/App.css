@@ -1,6 +1,13 @@
-
+body {
+  background-color: rgb(24, 22, 22);
+}
 .App {
   text-align: center;
+
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
 h1 {
   text-align: center;
