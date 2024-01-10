@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import 'tachyons'
+import 'tachyons';
 
 class SignIn extends Component  {
   constructor(props){
@@ -52,7 +52,7 @@ class SignIn extends Component  {
 </fieldset>
 <div className="">
   <input 
-  onClick={()=> onRouteChange('home')}
+  onClick={()=> onRouteChange('profile')}
   className="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib white" 
   type="submit" 
   value="Sign In"/>
